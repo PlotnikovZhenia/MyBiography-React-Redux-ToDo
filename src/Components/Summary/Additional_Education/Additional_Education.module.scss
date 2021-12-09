@@ -1,0 +1,22 @@
+.add_education {
+    padding: 20px;
+}
+.add_education:hover{
+    background-color: #cfd3d6;
+}
+.add_education h2 {
+    text-align: center;
+}
+.add_education>div{
+    display: flex;
+    justify-content: space-around;
+}
+.add_education img {
+    border: 1px solid;
+}
+@media only screen and (min-width: 280px)  and (max-width: 567px) {
+    .add_education>div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

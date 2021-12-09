@@ -1,0 +1,21 @@
+.general {
+    background-color: white;
+    width: 1000px;
+    margin:50px auto ;
+    padding: 50px 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+    .general {
+        width: 600px;
+    }
+}
+@media only screen and (min-width: 568px)  and (max-width: 767px) {
+    .general {
+        width: 500px;
+    }
+}
+@media only screen and (min-width: 280px)  and (max-width: 567px) {
+    .general {
+        width: 275px;
+    }
+}

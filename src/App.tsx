@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Biography from './Components/Summary/Biography';
+import Home from './Components/Main/Home';
+import ToDoComponent from './Components/ToDo/ToDoMain';
+import ToDo from './Components/ToDoWithRedux/ComponentsOfToDo/ToDoMain';
+import Error from './Components/Error';
+import { Routes,Route} from "react-router-dom";
 
-function App() {
+
+const App: React.FC=()=>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/biography" element={<Biography/>}/>
+        <Route path="/todolist" element={<ToDoComponent/>}/>
+        <Route path="/todolistRedux" element={<ToDo/>}/>
+        <Route path="*" element={<Error/>}/>
+      </Routes>
     </div>
   );
 }

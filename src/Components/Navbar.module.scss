@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 2px solid #0066FF;
+  border-radius: 20px 5px;
+  width: 100%;
+  text-align: center;
+  background-color: #4e728b;
+}
+.navbar li {
+   display: inline; 
+  }
+.navbar a {
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+.navbar a:hover {
+  border-radius: 20px 5px;
+  background-color: orange;
+}
+.home_block {
+  margin: auto;
+  width:50%;
+}
+
+@media only screen and (min-width: 280px)  and (max-width: 567px) {
+  .navbar a {
+    font-size: 12px;
+  }
+}

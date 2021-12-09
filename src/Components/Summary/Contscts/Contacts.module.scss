@@ -1,0 +1,25 @@
+.social {
+    padding: 20px;
+}
+.social_details {
+    display: flex;
+    justify-content: space-around;
+}
+.social_networks img{
+padding: 10px;
+}
+h2 {
+text-align: center;
+}
+.social_details img {
+    width: 30px;
+}
+.social:hover{
+    background-color: #cfd3d6;
+}
+
+@media only screen and (min-width: 280px)  and (max-width: 1024px) {
+    .social_details{
+        display: block;
+    }
+}

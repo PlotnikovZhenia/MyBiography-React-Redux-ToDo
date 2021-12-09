@@ -1,0 +1,47 @@
+.general_social {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px 0;
+}
+.general_social:hover{
+    background-color: #cfd3d6;
+}
+img {
+    width: 300px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+    .general_social{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 568px)  and (max-width: 767px) {
+    .general_social{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .general_social>div{
+        padding: 30px;
+        font-size: 18px;
+    }
+    .general_social h1{
+        text-align: center;
+    }
+    img {
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 280px)  and (max-width: 567px) {
+    .general_social{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .general_social>div{
+        padding: 30px;
+        font-size: 14px;
+    }
+    img {
+        width: 150px;
+    }
+}
