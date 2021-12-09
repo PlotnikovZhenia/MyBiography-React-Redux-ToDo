@@ -5,12 +5,14 @@ import Navbar from "./Navbar";
 
 const Error=()=>{
     return(
+        <>
+        <Navbar/>
         <div className={classes.error_information}>
-                <Navbar/>
                 <h1>404 Not Found</h1>
                 <p>Указаный адрес пока что не существует</p>
                 <Link to="/">Назад к главной</Link>
         </div>
+        </>
     )
 }
 export default Error;
