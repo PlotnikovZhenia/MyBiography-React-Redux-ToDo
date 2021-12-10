@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyBiography-React-Redux-ToDo/static/css/main.54f3220e.chunk.css",
-    "main.js": "/MyBiography-React-Redux-ToDo/static/js/main.708937be.chunk.js",
-    "main.js.map": "/MyBiography-React-Redux-ToDo/static/js/main.708937be.chunk.js.map",
+    "main.js": "/MyBiography-React-Redux-ToDo/static/js/main.5164b40e.chunk.js",
+    "main.js.map": "/MyBiography-React-Redux-ToDo/static/js/main.5164b40e.chunk.js.map",
     "runtime-main.js": "/MyBiography-React-Redux-ToDo/static/js/runtime-main.d3a69cfe.js",
     "runtime-main.js.map": "/MyBiography-React-Redux-ToDo/static/js/runtime-main.d3a69cfe.js.map",
     "static/js/2.45993449.chunk.js": "/MyBiography-React-Redux-ToDo/static/js/2.45993449.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d3a69cfe.js",
     "static/js/2.45993449.chunk.js",
     "static/css/main.54f3220e.chunk.css",
-    "static/js/main.708937be.chunk.js"
+    "static/js/main.5164b40e.chunk.js"
   ]
 }
