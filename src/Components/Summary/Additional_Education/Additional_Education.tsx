@@ -11,7 +11,7 @@ const AdditionalEducation:React.FC=()=>{
                 <h3>Время: 2020 г. (6 месяцев)</h3>
                 <h3>Направление курса: веб-программирование</h3>
                 </div>
-                <img src="Certificate.jpg" alt="сертификат"></img>
+                <img src="https://plotnikovzhenia.github.io/MyBiography-React-Redux-ToDo/Certificate.jpg" alt="сертификат"></img>
             </div>
         </div>
     )

@@ -12,9 +12,9 @@ const Contacts:React.FC=()=>{
                 </div>
                 <div className={classes.social_networks}>
                     <h3>Социальные сети:</h3>
-                    <a href="https://www.facebook.com/niaplotzhekovni"><img src="facebook.svg" alt="facebook"/></a>
-                    <a href="https://www.instagram.com/zhenia__plotnikov/" ><img src="instagram.svg" alt="instagram"/></a>
-                    <a href="https://t.me/PlotnikovEugeniy" ><img src="telegram.svg" alt="telegram"/></a>
+                    <a href="https://www.facebook.com/niaplotzhekovni"><img src="https://plotnikovzhenia.github.io/MyBiography-React-Redux-ToDo/facebook.svg" alt="facebook"/></a>
+                    <a href="https://www.instagram.com/zhenia__plotnikov/" ><img src="https://plotnikovzhenia.github.io/MyBiography-React-Redux-ToDo/instagram.svg" alt="instagram"/></a>
+                    <a href="https://t.me/PlotnikovEugeniy" ><img src="https://plotnikovzhenia.github.io/MyBiography-React-Redux-ToDo/telegram.svg" alt="telegram"/></a>
                 </div>
             </div>
         </div>

@@ -31,13 +31,13 @@ const TodoListItem = ({ label, index, important ,done,onDeleted,changeItemDone }
             </span>
             </td>
             <td>
-            <input onClick={onDeleted} type="image"  className="btn_delete" name="image" src="Delete.svg" alt="Delete"></input>
+            <input onClick={onDeleted} type="image"  className="btn_delete" name="image" src="https://plotnikovzhenia.github.io/MyBiography-React-Redux-ToDo/Delete.svg" alt="Delete"></input>
             </td>
             <td>
-            <input onClick={changeItemDone} type="image" className="btn_delete" name="image" src="Done.svg" alt="Done"></input>
+            <input onClick={changeItemDone} type="image" className="btn_delete" name="image" src="https://plotnikovzhenia.github.io/MyBiography-React-Redux-ToDo/Done.svg" alt="Done"></input>
             </td>
             <td>
-            <input onClick={()=>setImportant(!stateimportant)} type="image" className="btn_attention" name="image" src="Attention.svg" alt="Attention"></input>
+            <input onClick={()=>setImportant(!stateimportant)} type="image" className="btn_attention" name="image" src="https://plotnikovzhenia.github.io/MyBiography-React-Redux-ToDo/attention.svg" alt="Attention"></input>
             </td>
     </>
   );

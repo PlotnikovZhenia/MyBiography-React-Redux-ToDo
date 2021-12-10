@@ -14,7 +14,7 @@ const GeneralInformation:React.FC=()=>{
     }
     return(
         <div className={classes.general_social}>
-            <img src="my_photo.jpg" alt="my"/>
+            <img src="https://plotnikovzhenia.github.io/MyBiography-React-Redux-ToDo/my_photo.jpg" alt="my_photo"/>
             <div>
                 <h1>Плотников Евгений Владимирович</h1>
                 <h3>Направление: React-разработка</h3>
