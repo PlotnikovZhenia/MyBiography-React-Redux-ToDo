@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyBiography-React-Redux-ToDo/static/css/main.f7dc0984.chunk.css",
+    "main.css": "/MyBiography-React-Redux-ToDo/static/css/main.707798d2.chunk.css",
     "main.js": "/MyBiography-React-Redux-ToDo/static/js/main.82b51006.chunk.js",
     "main.js.map": "/MyBiography-React-Redux-ToDo/static/js/main.82b51006.chunk.js.map",
     "runtime-main.js": "/MyBiography-React-Redux-ToDo/static/js/runtime-main.d3a69cfe.js",
@@ -10,13 +10,13 @@
     "static/js/3.3a36eb37.chunk.js": "/MyBiography-React-Redux-ToDo/static/js/3.3a36eb37.chunk.js",
     "static/js/3.3a36eb37.chunk.js.map": "/MyBiography-React-Redux-ToDo/static/js/3.3a36eb37.chunk.js.map",
     "index.html": "/MyBiography-React-Redux-ToDo/index.html",
-    "static/css/main.f7dc0984.chunk.css.map": "/MyBiography-React-Redux-ToDo/static/css/main.f7dc0984.chunk.css.map",
+    "static/css/main.707798d2.chunk.css.map": "/MyBiography-React-Redux-ToDo/static/css/main.707798d2.chunk.css.map",
     "static/js/2.45993449.chunk.js.LICENSE.txt": "/MyBiography-React-Redux-ToDo/static/js/2.45993449.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d3a69cfe.js",
     "static/js/2.45993449.chunk.js",
-    "static/css/main.f7dc0984.chunk.css",
+    "static/css/main.707798d2.chunk.css",
     "static/js/main.82b51006.chunk.js"
   ]
 }
