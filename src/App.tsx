@@ -11,7 +11,7 @@ const App: React.FC=()=>{
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/MyBiography-React-Redux-ToDo/" element={<Home/>}/>
         <Route path="/biography" element={<Biography/>}/>
         <Route path="/todolist" element={<ToDoComponent/>}/>
         <Route path="/todolistRedux" element={<ToDo/>}/>
